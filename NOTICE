@@ -1,0 +1,16 @@
+local-kb-rag
+===========
+
+本仓库基于 chatchat-space/Langchain-Chatchat
+（https://github.com/chatchat-space/Langchain-Chatchat，Apache License 2.0）整理。
+
+原始版权声明与许可证条款见 LICENSE 文件，未作删改。
+
+整理工作：
+- 移除上游 CI（.github）与失效的 wiki 子模块引用（.gitmodules）；
+- 将根工程 pyproject name 由 Chatchat 改为 local-kb-rag；
+- 以中文重写 README，按 libs/chatchat-server 与 libs/python-sdk 两大代码库重新组织说明；
+- 为各模块的子包补充中文说明。
+
+除非另有说明，源自上游的源码其著作权归 chatchat-space 所有；
+本仓库整理者不主张对上游代码的额外权利。
